@@ -1,0 +1,105 @@
+body{
+    background-image: url("../img/photo-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    direction: rtl;
+    box-sizing: border-box;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    line-height: 1.5;
+    height: 100vh;
+}
+.header{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px 80px 40px 40px;
+    margin: 40px 40px 100px;
+}
+a{
+    transition: all 0.2s;
+    text-decoration: none;
+}
+.menu{
+    background: white;
+    width: 95px;
+    position: relative;
+    margin: 41px 20px;
+}
+ul{
+    padding: 2px 23px;
+    cursor: pointer;
+}
+.menu li{
+    list-style-type: none;
+    display: block;
+    padding: 10px 2px;
+    text-align: center;
+    font-size: 19px;
+    transition: 0.3s;
+    color: #000;
+}
+.menu li:hover{
+    color: red;
+    cursor: pointer;
+}
+.submenu{
+    position: absolute;
+    top: 100%;
+    right: -16%;
+    width: 200px;
+    margin: 20px;
+    display: none;
+}
+.submenu li{
+    background-color: #fff;
+    margin: 10px -21px;
+    text-transform: uppercase;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #fff;
+}
+.barcode{
+    margin-bottom: 30px;
+    margin-left: 95px;
+    float: left;
+}
+.footer{
+    font-weight: 300;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    font-size: 0.95rem;
+    margin-right: 40px;
+    line-height: 2;
+}
+div .content{
+    padding: 20px 40px 60px;
+    font-size: 1.1rem;
+    color: #c5c7c6;
+    line-height: 1.8;
+    background: rgba(0, 0, 0, 0.7);
+    max-width: 360px;
+    margin: 50px 75px 0 0;
+    text-align: left;
+}
+.pco1{
+    margin-bottom: 1.5rem;
+    direction: ltr;
+}
+#btn{
+    background-color: white;
+    padding: 15px 30px;
+    color: black;
+    border-radius: 5px;
+    display: inline-block;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.l-box{
+    margin:0;
+}
